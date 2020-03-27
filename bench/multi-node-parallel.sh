@@ -8,4 +8,4 @@ seq 2 | parallel "MAX=999999 TARGET=74.91.28.98 RECEIVER=0xd54924701cd0d94d677d0
 seq 2 | parallel "MAX=999999 TARGET=192.187.124.250 RECEIVER=0x2f65a895741143953aabed3680177594818a5f9a node ./sendTransaction.js " > /dev/null  2>&1 & disown
 
 
-#./multi-parallel.sh
+#./multi-node-parallel.sh
